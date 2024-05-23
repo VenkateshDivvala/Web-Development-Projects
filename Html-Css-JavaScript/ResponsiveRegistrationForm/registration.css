@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(82, 104, 122, 0.9);
+}
+.Main-block{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    margin-left: 350px;
+    margin-top: 60px;
+    display: flex;
+}
+.img{
+    width: 50%;
+    height: 100%;
+}
+.img img{
+    border-radius: 8px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+.form{
+    background: border-box;
+    background-color: white;
+    width: 50%;
+    height: 96.7%;
+    padding:10px;
+    padding-inline-start: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+label{
+    font-weight: normal;
+    font-size: 15px;
+}
+input{
+    width: 80%;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(211, 211, 211, 0.9);
+    margin-top: 10px;
+}
+.checkbox{
+    display: flex;
+}
+.checkbox input{
+    width: 25px;
+}
+.checkbox p{
+    margin-top: 8px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+a{
+    padding-left: 30px;
+    font-size: 15px;
+}
+button{
+    margin-top: 10px;
+    padding: 13px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+h1{
+    margin-top: 15px;
+}
